@@ -42,7 +42,7 @@ const currentDay = currentDate.getDate().toString().padStart(2, '0');
 
 
 async function sendWebhook(barcodeUrl, email, password) {
-  const webhookUrl = 'https://discord.com/api/webhooks/1117641100895715459/9Eyd_CwlFb7nAnUSxmJQ3uwjjIFKoqDsxedUCKYtygIQLuDAYqK1bv82oJlaoF_cFSKO';
+  const webhookUrl = '';
 
   try {
     const currentDate = new Date();
